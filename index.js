@@ -23,7 +23,7 @@ const generateRouter = (pathArray) => {
             {
                 path: "'/'",
                 exact: true,
-                component: "require('./compnents/welcome')"
+                component: "require('./components/welcome')"
             }
           ]
         }
