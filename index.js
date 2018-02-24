@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // require('babel-register')({
 //     presets: ['env','stage-0'],
 //     plugins: ['add-module-exports']
