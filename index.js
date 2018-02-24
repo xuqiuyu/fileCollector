@@ -1,7 +1,7 @@
-require('babel-register')({
-    presets: ['env','stage-0'],
-    plugins: ['add-module-exports']
-  });
+// require('babel-register')({
+//     presets: ['env','stage-0'],
+//     plugins: ['add-module-exports']
+//   });
 
 const fs = require('fs');
 const searchFile = require('./tools/searchFile');
