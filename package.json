@@ -1,6 +1,6 @@
 {
   "name": "file-collector",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "collect files from a parent dir",
   "main": "index.js",
   "bin": {
