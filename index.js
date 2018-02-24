@@ -19,7 +19,13 @@ const generateRouter = (pathArray) => {
     const routes = [
         {
           component: "require('./pages/App')",
-          routes: []
+          routes: [
+            {
+                path: '/',
+                exact: true,
+                component: "require('./compnents/welcome')"
+            }
+          ]
         }
     ];
     if(pathArray && Array.isArray(pathArray)){
