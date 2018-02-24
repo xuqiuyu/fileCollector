@@ -32,7 +32,7 @@ const generateRouter = (pathArray) => {
         });
     }
     //写文件
-    const result = `'use strict';\n\n module.exports = ${JSON.stringify(routes,null,2)}`.replace(/"/g,'');
+    const result = `module.exports = ${JSON.stringify(routes,null,2)}`.replace(/"/g,'');
     fs.writeFileSync('./shared/router.js',result);
 }
 
