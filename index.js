@@ -9,6 +9,8 @@ const searchFile = require('./tools/searchFile');
 //get script command params
 // const params = process.argv.reverse();
 
+console.log('collecting router files ....');
+
 const pathArray = searchFile('./shared/pages','router.js');
 
 //business code
