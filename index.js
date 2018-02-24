@@ -4,7 +4,7 @@ require('babel-register')({
   });
 
 const fs = require('fs');
-const searchFile = require('searchFile');
+const searchFile = require('./tools/searchFile');
 
 //get script command params
 // const params = process.argv.reverse();
