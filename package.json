@@ -13,7 +13,11 @@
     "type": "git",
     "url": "git+https://github.com/xuqiuyu/fileCollector.git"
   },
-  "keywords": ["node","cli","commander"],
+  "keywords": [
+    "node",
+    "cli",
+    "commander"
+  ],
   "author": "Breeze",
   "license": "ISC",
   "bugs": {

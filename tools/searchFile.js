@@ -10,7 +10,7 @@ const searchFile = (filePath, targetFileName, result =[]) => {
         //获取当前文件路径
         const fileDir = filePath + '/'+ filename;
         //获取文件信息
-        if(fs.statSync(fileDir).isDirectory()) searchRouterPath(fileDir,targetFileName,result);
+        if(fs.statSync(fileDir).isDirectory()) searchFile(fileDir,targetFileName,result);
          return true;
     });
 
