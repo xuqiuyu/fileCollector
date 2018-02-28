@@ -33,7 +33,7 @@ const generateRouter = (pathArray) => {
             const routerPath = item.replace('/shared','');
             const routerPrefix = item.split('/').length > 4 ? item.replace('./shared/pages','') : '';
             routes[0].routes.push(
-                "...require('"+ routerPath + "/router.js').map(R => {R.path = '"+ routerPrefix + "' + R.path; return R;})"
+                "...require('"+ routerPath + "/router.js').map(R => {R.path = '"+ routerPrefix + "' + R.path || ''; R.exact = R.exact || true; return R;})"
             );
         });
     }
