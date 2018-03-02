@@ -16,7 +16,7 @@ const generateRouter = (pathArray) => {
       component: "require('./pages/App')",
       routes: [
         {
-          path: "'/'",
+          path: "'/welcome'",
           exact: true,
           component: "require('./components/welcome')"
         }
